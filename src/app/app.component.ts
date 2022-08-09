@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'section5ReUseableComponents';
+
+  // WILL NEED HELP WITH THIS 
+  post={
+    title:"TittlefromApp",
+    isFavorite: true,
+  }
+
+
+  onFavoriteChanged(){
+    console.log("SOMETHING CHANGED");
+  }
+
+  
+
+
+
+
 }
+
+
