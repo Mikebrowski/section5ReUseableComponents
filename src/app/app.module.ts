@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainCompComponent } from './main-comp/main-comp.component';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { ItemOutputComponent } from './item-output/item-output.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainCompComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    ItemOutputComponent
   ],
   imports: [
     BrowserModule,

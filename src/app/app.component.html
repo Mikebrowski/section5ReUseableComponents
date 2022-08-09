@@ -5,7 +5,19 @@
 
 <section> <h2> FAVORUITE WITH THE OUTPOUT TESTING </h2>
                                         <!--           HERE IS THE OUTPUT-->
-<favorite [isSelected]="post.isFavorite" (change)="onFavoriteChanged()"></favorite >
+<favorite [isSelected]="post.isFavorite" (change)="onFavoriteChanged($event)"></favorite > <!-- ADD THE $event INTO THE FAVOR --> 
+</section>
+
+<br><br><br><br>
+<section>
+<h1>ANGULAR TUTORIAL</h1>
+<!-- <button>CLICK ME TO ADD AN ELEMENT </button> -->
+<!-- VS-->
+<app-item-output (newItemEvent)="addItem($event)"></app-item-output>
+<ul >
+    <li *ngFor="let item of items">{{item}}</li>
+</ul>
+
 </section>
         
 
