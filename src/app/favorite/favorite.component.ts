@@ -9,7 +9,7 @@ export class FavoriteComponent implements OnInit {
 
   
 /*   inputs: ['isFavorite']        //vs
-  @Input() isFavorite?: boolean; */
+     @Input() isFavorite?: boolean; */
   // decorateive function for input 
   // @Input is decorator
   // @input is use for making feilds and properties as input properties
